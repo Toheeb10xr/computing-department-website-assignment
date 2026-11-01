@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8e7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #a71919;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+nav {
+    background-color: #f5c542;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #741414;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #a71919;
+    text-decoration: underline;
+}
+
+.hero {
+    background: linear-gradient(135deg, #a71919, #6d1010);
+    color: white;
+    text-align: center;
+    padding: 85px 20px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f5c542;
+    color: #741414;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 45px 8%;
+    text-align: center;
+}
+
+.content h2 {
+    color: #a71919;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border-top: 5px solid #f5c542;
+    padding: 25px;
+    width: 240px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #a71919;
+    margin-bottom: 12px;
+}
+
+footer {
+    background-color: #a71919;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #a71919;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+
+    .content {
+        padding: 30px 5%;
+    }
+}
